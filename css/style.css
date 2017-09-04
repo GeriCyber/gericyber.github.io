@@ -191,10 +191,8 @@ body.loaded #preloader{
     position: relative;
     left: 50%;
     top: 50%;
-    left: 70%;
     width: 150px;
     height: 150px;
-    margin: -75px 0 0 -75px;
 }
 
 /* Home Section and Navigation Menu */
