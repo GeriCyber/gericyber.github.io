@@ -696,6 +696,9 @@ ul.portfolio li.active {
 
 
 @media only screen and (max-width: 767px) {
+	.loader {
+		top: 250px;
+	}
     .navbar-toggle .icon-bar {
         background: #f8f8f8;
     }
