@@ -198,15 +198,6 @@ body.loaded #preloader{
     margin: -75px 0 0 -75px;
 }
 
-.loader:before{
-    content: "";
-    position: absolute;
-    top: 5px;
-    left: 5px;
-    right: 5px;
-    bottom: 5px;
-}
-
 /* Home Section and Navigation Menu */
 
 .home-section {
