@@ -6,7 +6,7 @@
 
        /* Preloader */
 		
-        $(window).on('load', function() {
+        $(window).load(function() {
           $('body').addClass('loaded');
         });
 
