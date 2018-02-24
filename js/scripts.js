@@ -62,9 +62,9 @@
 		
         $(window).load(function(){
         $(".typing").typed({
-            strings: ["Diseño <mark>Web</mark>", "Desarrollo <mark>Web</mark>", "Marketing <mark>Digital</mark>"],   
+            strings: ["Diseño <mark>Web</mark>", "Desarrollo <mark>Web</mark>"],   
             typeSpeed: 120,
-            loop: true,
+            loop: false,
             loopCount: Infinity
           });
          });
