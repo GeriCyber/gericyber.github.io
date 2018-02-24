@@ -762,6 +762,10 @@ ul.portfolio li.active {
 	.navigation-background .logo {
 		padding-top: 28px;
 	}
+	.contact-c
+	{
+		text-align:center;
+	}
 }
 
 
@@ -777,10 +781,15 @@ ul.portfolio li.active {
      .footer-section p {
          text-align: center !important;
      }
+	
 }
 
 
 @media only screen and (max-width: 767px) {
+	.contact-c
+	{
+		text-align:center;
+	}
 	.loader {
 		top: 150px;
 	}
