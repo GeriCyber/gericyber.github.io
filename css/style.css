@@ -188,7 +188,6 @@ body.loaded #preloader{
     display: block;
     position: relative;
     top: 35%;
-<<<<<<< HEAD
 }
 
 .sk-circle {
@@ -313,9 +312,6 @@ body.loaded #preloader{
   }
 }
 
-=======
-}
-
 .sk-circle {
   margin: 100px auto;
   width: 40px;
@@ -437,8 +433,6 @@ body.loaded #preloader{
             transform: scale(1);
   }
 }
-
->>>>>>> origin/master
 
 /* Home Section and Navigation Menu */
 
@@ -916,16 +910,10 @@ ul.portfolio li.active {
      .footer-section p {
          text-align: center !important;
      }
-<<<<<<< HEAD
-  
-=======
-	
->>>>>>> origin/master
 }
 
 
 @media only screen and (max-width: 767px) {
-<<<<<<< HEAD
   .contact-c
   {
     text-align:center;
@@ -933,7 +921,6 @@ ul.portfolio li.active {
   .loader {
     top: 150px;
   }
-=======
 	.contact-c
 	{
 		text-align:center;
@@ -941,7 +928,6 @@ ul.portfolio li.active {
 	.loader {
 		top: 150px;
 	}
->>>>>>> origin/master
     .navbar-toggle .icon-bar {
         background: #f8f8f8;
     }
