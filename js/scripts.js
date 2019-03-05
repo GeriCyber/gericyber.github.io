@@ -4,6 +4,25 @@
 
     jQuery(document).ready(function () {
 
+        //Spanish automatic
+        $('[lang="en"]').hide();
+        var lang = 'es';
+
+        /// If English is selected
+        $("#btn-en").click(function() 
+        {
+            $('[lang="es"]').hide();
+            $('[lang="en"]').show(); 
+            lang = 'en';    
+        });
+        /// If Spanish is selected
+        $("#btn-es").click(function() 
+        {
+            lang = 'es';
+            $('[lang="en"]').hide();
+            $('[lang="es"]').show();
+        });
+
        /* Preloader */
 		
         $(window).load(function() {
@@ -61,8 +80,14 @@
         /* Typed.js */
 		
         $(window).load(function(){
-        $(".typing").typed({
+        $(".typing-es").typed({
             strings: ["Diseño <mark>Web</mark>", "Desarrollo <mark>Web</mark>", "SEO"],   
+            typeSpeed: 120,
+            loop: true,
+            loopCount: Infinity
+          });
+          $(".typing-en").typed({
+            strings: ["Web <mark>Design</mark>", "Web <mark>Development</mark>", "SEO"],   
             typeSpeed: 120,
             loop: true,
             loopCount: Infinity
