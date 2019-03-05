@@ -554,11 +554,15 @@ body.loaded #preloader{
     transition: all 0.3s ease-out;
 }
 
-.nav li a:focus,
 .nav li a:hover {
     background: none;
     color: #B93EDC;
     -webkit-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+}
+.nav li a:focus {
+  background: none;
+  -webkit-transition: all 0.3s ease-out;
     transition: all 0.3s ease-out;
 }
 
