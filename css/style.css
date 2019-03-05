@@ -117,7 +117,7 @@ li {
   color: inherit;
   background: none;
   cursor: pointer;
-  padding: 20px 30px;
+  padding: 15px 25px;
   display: inline-block;
   margin: 15px 30px;
   text-transform: uppercase;
@@ -125,14 +125,14 @@ li {
   font-weight: 400;
   outline: none;
   position: relative;
-  -webkit-transition: all 0.6s ease-in-out;
-  -moz-transition: all 0.6s ease-in-out;
-  transition: all 0.6s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
 .button-style {
-  border-radius: 10px;
-  border: 2px solid #ffffff4a;
+  border-radius: 30px 30px 30px 30px;
+  border: 1px solid #ffffff14;
   color: #fff;
   overflow: hidden;
 }
@@ -443,8 +443,9 @@ body.loaded #preloader{
 .home-section-background {
     position: relative;
     height: 100vh;
-    background: url(../images/GC-50.jpg);
+    background: url(../images/pexels-photo-220357.jpeg);
     background-size: cover;
+    background-repeat: no-repeat;
     z-index: 1;
 }
 
@@ -777,7 +778,7 @@ ul.portfolio li.active {
 
 .skills-section hr {
   border-bottom: 2px solid #B93EDC;
-  margin-left: 0px;
+  /* margin-left: 0px; */
 }
 
 .skills-section .skills-detail {
@@ -878,7 +879,6 @@ ul.portfolio li.active {
         padding: 30px 11px;
         font-size: 12px;
     }
-<<<<<<< HEAD
   .navigation-background .logo {
     padding-top: 28px;
   }
@@ -886,15 +886,6 @@ ul.portfolio li.active {
   {
     text-align:center;
   }
-=======
-	.navigation-background .logo {
-		padding-top: 28px;
-	}
-	.contact-c
-	{
-		text-align:center;
-	}
->>>>>>> origin/master
 }
 
 
@@ -1042,6 +1033,8 @@ ul.portfolio li.active {
     z-index: 999;
     border-radius: 50%;
     border: 1px solid #dedede;
+    -webkit-transition: all 0.4s ease-out;
+    transition: all 0.4s ease-out;
 }
 
 .scroll-to-top:hover,
@@ -1366,4 +1359,22 @@ ul.portfolio li.active {
 
 .copyright a:hover {
     color: #ffffff;
+}
+
+.modal {
+  margin-top: 100px;
+}
+.btn-secondary {
+  background-color: rgba(137, 19, 164, 0.6);
+  color: #FFF;
+}
+.btn-secondary:hover {
+  color: #FFF;
+}
+.btn {
+  border-top-right-radius: 0px !important;
+}
+.btn:focus {
+  color: #FFF;
+  outline: none !important;
 }
