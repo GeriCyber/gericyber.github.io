@@ -135,6 +135,7 @@ li {
   border: 1px solid #ffffff14;
   color: #fff;
   overflow: hidden;
+  font-size: 14px;
 }
 
 .button-style:hover,
@@ -1043,7 +1044,7 @@ ul.portfolio li.active {
 
 .scroll-to-top:hover,
 .scroll-to-top:focus {
-    background-color: #B93EDC;
+    background-color: rgba(137, 19, 164, 0.6);;
     color: #FFF;
 }
 
@@ -1381,4 +1382,25 @@ ul.portfolio li.active {
 .btn:focus {
   color: #FFF;
   outline: none !important;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 2px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgba(137, 19, 164, 0.6);; 
+  border-radius: 2px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(137, 19, 164, 0.6);; 
 }
