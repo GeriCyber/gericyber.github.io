@@ -25,13 +25,13 @@
 
        /* Preloader */
 		
-        /*$(window).load(function() {
+        $(window).load(function() {
           $('body').addClass('loaded');
-        });*/
+        });
 
-        setTimeout(function(){ 
+        /*setTimeout(function(){ 
           $('body').addClass('loaded'); 
-        }, 3000);
+        }, 3000);*/
 
        /* Smooth Scroll */
 
