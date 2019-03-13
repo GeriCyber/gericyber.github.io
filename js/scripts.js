@@ -25,9 +25,13 @@
 
        /* Preloader */
 		
-        $(window).load(function() {
+        /*$(window).load(function() {
           $('body').addClass('loaded');
-        });
+        });*/
+
+        setTimeout(function(){ 
+          $('body').addClass('loaded'); 
+        }, 3000);
 
        /* Smooth Scroll */
 
