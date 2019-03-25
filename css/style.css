@@ -444,7 +444,7 @@ body.loaded #preloader{
 .home-section-background {
     position: relative;
     height: 100vh;
-    background: url(../images/pexels-photo-220357.jpeg);
+    background: url(../images/pexels-photo-247791.png);
     background-size: cover;
     background-repeat: no-repeat;
     z-index: 1;
@@ -836,8 +836,8 @@ ul.portfolio li.active {
    color: #1da1f2;
 }
 
-.google-plus {
-   color: #dd4b39;
+.whatsapp {
+   color: #028800;
 }
 
 .github {
@@ -852,7 +852,7 @@ ul.portfolio li.active {
 #mark-social .twitter:hover,
 #mark-social .linkedin:hover,
 #mark-social .github:hover,
-#mark-social .google-plus:hover
+#mark-social .whatsapp:hover
 {
   bottom: 5px;
 }
