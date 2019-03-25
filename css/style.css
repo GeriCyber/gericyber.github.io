@@ -132,16 +132,19 @@ li {
 
 .button-style {
   border-radius: 30px 30px 30px 30px;
-  border: 1px solid #ffffff14;
+  border: 2px solid #572b64;
   color: #fff;
   overflow: hidden;
   font-size: 14px;
+  background-color: rgba(137, 19, 164, 0.08);
+  color: #ffffff !important;
+  transition: 
 }
 
 .button-style:hover,
 .button-style:active,
 .button-style:focus {
-  background-color: rgba(137, 19, 164, 0.36);
+  background-color: rgba(137, 19, 164, 0.5);
   color: #ffffff !important;
 }
 
@@ -444,15 +447,16 @@ body.loaded #preloader{
 .home-section-background {
     position: relative;
     height: 100vh;
-    background: url(../images/pexels-photo-247791.png);
+    background: url(../images/business-camera-coffee-1509428.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     z-index: 1;
+    background-position: center bottom !important;
 }
 
 .home-section-background:after {
     position: absolute;
-    background: rgba(0, 0, 0, .8);
+    background: rgba(0, 0, 0, .88);
     left: 0;
     top: 0;
     width: 100%;
@@ -535,6 +539,10 @@ body.loaded #preloader{
     letter-spacing: 6px;
     font-weight: 900;
     font-size: 14px;
+}
+.logo a mark {
+  border-radius: 5px;
+  padding-left: 5px;
 }
 
 .navigation-menu .navbar-nav li a {
