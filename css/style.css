@@ -117,7 +117,7 @@ li {
   color: inherit;
   background: none;
   cursor: pointer;
-  padding: 15px 25px;
+  padding: 7px 35px;
   display: inline-block;
   margin: 15px 30px;
   text-transform: uppercase;
@@ -135,7 +135,7 @@ li {
   border: 2px solid #572b64;
   color: #fff;
   overflow: hidden;
-  font-size: 14px;
+  font-size: 12px;
   background-color: rgba(137, 19, 164, 0.08);
   color: #ffffff !important;
   transition: 
@@ -647,7 +647,7 @@ ul.portfolio li {
     margin: 0 8px;
     text-transform: capitalize;
     font-size: 14px;
-    font-weight: 400;
+    font-weight: 600;
     color: #333;
     border: none;
     cursor: pointer;
@@ -715,10 +715,10 @@ ul.portfolio li.active {
 }
 
 .mfp-image-holder .mfp-close, .mfp-iframe-holder .mfp-close {
-  margin-top: 40px;
-    font-size: 50px;
-    background-color: #B93EDC;
-    width: 44px;
+  margin-top: 85px;
+  font-size: 50px;
+  background-color: #B93EDC;
+  width: 44px;
   right: 0px;
 }
 
@@ -757,7 +757,7 @@ ul.portfolio li.active {
 .education-word h2 {
     font-size: 12px;
     text-transform: uppercase;
-  color: #B93EDC;
+    color: #B93EDC;
     font-weight: 700;
     letter-spacing: 4px;
     margin: 20px 0px;
@@ -927,6 +927,9 @@ ul.portfolio li.active {
 
 
 @media only screen and (max-width: 767px) {
+  .skills {
+    padding: 0 20px !important;
+  }
   .contact-c
   {
     text-align:center;
@@ -975,6 +978,7 @@ ul.portfolio li.active {
     }
     .navbar-collapse {
         background: rgba(0, 0, 0, .9);
+        margin-bottom: 20px !important;
     }
     .navigation-background .navbar-collapse {
         background: rgba(0, 5, 0, 0.9);
@@ -1371,9 +1375,6 @@ ul.portfolio li.active {
 
 /* Copyright */
 
-.copyright {
-}
-
 .copyright a {
     color: #B93EDC;
     font-weight: 600;
@@ -1420,4 +1421,178 @@ ul.portfolio li.active {
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: rgba(137, 19, 164, 0.6);; 
+}
+
+.skills {
+  padding: 0 70px;
+}
+
+.skill-category {
+  color: #B93EDC;
+}
+
+.skill-name {
+  font-size: 15px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 10px 0;
+}
+
+.skill-bar {
+  height: 7px;
+  background: #cacaca;
+  border-radius: 8px;
+}
+
+.skill-per {
+  height: 7px;
+  background-color: rgba(0, 5, 0, 0.8);
+  border-radius: 8px;
+  width: 0;
+  transition: 1s linear;
+  position: relative;
+}
+
+.skill-per::before {
+  content: attr(per);
+  position: absolute;
+  padding: 0px 3px;
+  background-color: #c489d1;
+  color: #fff;
+  font-size: 12px;
+  border-radius: 4px;
+  top: -30px;
+  right: 0;
+  transform: translateX(50%);
+}
+
+.skill-per::after {
+  content: '';
+  position: absolute;
+  background-color: #c489d1;
+  width: 10px;
+  height: 10px;
+  top: -12px;
+  right: 0;
+  transform: translateX(50%) rotate(45deg);
+  border-radius: 2px;
+}
+
+.mfp-figure:after {
+  box-shadow: none !important;
+  background:transparent !important;
+}
+
+img.mfp-img {
+  padding: 85px 0 85px !important;
+}
+
+.mfp-bottom-bar {
+  margin-top: -70px !important;
+}
+
+/* Work Experience Timeline */
+
+.container-experience {
+   position: relative;
+   overflow: hidden;
+}
+
+.container-experience:before {
+  content: '';
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  margin-left: -1px;
+  width: 2px;
+  height: 100%;
+  background: #CCD1D9;
+  z-index: 1
+}
+
+.timeline-block {
+  width: -webkit-calc(50% + 8px);
+  width: -moz-calc(50% + 8px);
+  width: calc(50% + 8px);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -moz-box-pack: justify;
+  justify-content: space-between;
+  clear: both;
+}
+
+.timeline-block-right {
+  float: right;
+}
+
+.timeline-block-left {
+  float: left;
+  direction: rtl
+}
+
+.marker {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  border: 2px solid #B93EDC;
+  background: #B93EDC;
+  margin-top: 10px;
+  z-index: 2;
+}
+
+.timeline-content {
+  width: 95%;
+  padding: 0 15px;
+  color: #666
+}
+
+.timeline-content h3 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 25px;
+  font-weight: 500
+}
+
+.timeline-content span {
+  font-size: 15px;
+  color: #a4a4a4;
+}
+
+.timeline-content p {
+  font-size: 14px;
+  line-height: 1.5em;
+  word-spacing: 1px;
+  color: #888;
+}
+
+
+@media screen and (max-width: 768px) {
+  .container-experience:before {
+    left: 8px;
+    width: 2px;
+  }
+  .timeline-block {
+     width: 100%;
+     margin-bottom: 30px;
+  }
+  .timeline-block-right {
+     float: none;
+  }
+
+  .timeline-block-left {
+     float: none;
+     direction: ltr;
+  }
+}
+
+.work-company {
+  color: #B93EDC !important;
+}
+
+.nav>li>a>img {
+  width: 22px !important;
 }

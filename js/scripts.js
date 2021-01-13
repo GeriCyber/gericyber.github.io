@@ -5,8 +5,8 @@
     jQuery(document).ready(function () {
 
         //Spanish automatic
-        $('[lang="en"]').hide();
-        var lang = 'es';
+        $('[lang="es"]').hide();
+        var lang = 'en';
 
         /// If English is selected
         $("#btn-en").click(function() 
@@ -25,13 +25,31 @@
 
        /* Preloader */
 		
-        $(window).load(function() {
-          $('body').addClass('loaded');
-        });
+        // $(window).load(function() {
+        //   $('body').addClass('loaded');
+        // });
 
-        /*setTimeout(function(){ 
+        setTimeout(function(){ 
           $('body').addClass('loaded'); 
-        }, 3000);*/
+        }, 1000);
+
+
+        /* Skills animation */
+
+        $('.skill-per').each(function(){
+            var $this = $(this);
+            var per = $this.attr('per');
+            $this.css("width",per+'%');
+            $({animatedValue: 0}).animate({animatedValue: per},{
+              duration: 3000,
+              step: function(){
+                $this.attr('per', Math.floor(this.animatedValue) + '%');
+              },
+              complete: function(){
+                $this.attr('per', Math.floor(this.animatedValue) + '%');
+              }
+            });
+          });
 
        /* Smooth Scroll */
 
