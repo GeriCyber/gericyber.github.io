@@ -103,13 +103,13 @@
 		
         $(window).load(function(){
         $(".typing-es").typed({
-            strings: ["Diseño <mark>Web</mark>", "Desarrollo <mark>Web</mark>", "Consultoría de <mark>Software</mark>"],   
+            strings: ["Diseño <mark>Web</mark>", "Desarrollo <mark>Web/Mobile</mark>", "Consultoría de <mark>Software</mark>"],   
             typeSpeed: 120,
             loop: true,
             loopCount: Infinity
           });
           $(".typing-en").typed({
-            strings: ["Web <mark>Design</mark>", "Web <mark>Development</mark>", "Software <mark>Consulting</mark>"],   
+            strings: ["Web <mark>Design</mark>", "Web/Mobile <mark>Development</mark>", "Software <mark>Consulting</mark>"],   
             typeSpeed: 120,
             loop: true,
             loopCount: Infinity

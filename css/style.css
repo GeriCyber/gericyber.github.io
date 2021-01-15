@@ -1403,24 +1403,24 @@ ul.portfolio li.active {
 }
 
 ::-webkit-scrollbar {
-  width: 8px;
+  width: 6px;
 }
 
 /* Track */
 ::-webkit-scrollbar-track {
-  box-shadow: inset 0 0 5px grey; 
+  box-shadow: inset 0 0 2px rgb(214, 214, 214); 
   border-radius: 2px;
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: rgba(137, 19, 164, 0.6);; 
+  background: rgba(137, 19, 164, 0.6);
   border-radius: 2px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: rgba(137, 19, 164, 0.6);; 
+  background: rgba(137, 19, 164, 0.6);
 }
 
 .skills {
@@ -1550,19 +1550,19 @@ img.mfp-img {
   color: #666
 }
 
-.timeline-content h3 {
+.timeline-content h3, .intern-content h3 {
   margin-top: 5px;
   margin-bottom: 5px;
   font-size: 25px;
   font-weight: 500
 }
 
-.timeline-content span {
+.timeline-content span, .intern-content span {
   font-size: 15px;
   color: #a4a4a4;
 }
 
-.timeline-content p {
+.timeline-content p, .intern-content p {
   font-size: 14px;
   line-height: 1.5em;
   word-spacing: 1px;
