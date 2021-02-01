@@ -447,16 +447,16 @@ body.loaded #preloader{
 .home-section-background {
     position: relative;
     height: 100vh;
-    background: url(../images/business-camera-coffee-1509428.jpg);
+    background: url(../images/GC-50.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     z-index: 1;
-    background-position: center bottom !important;
+    background-position: center top !important;
 }
 
 .home-section-background:after {
     position: absolute;
-    background: rgba(0, 0, 0, .88);
+    background: rgba(0, 0, 0, .85);
     left: 0;
     top: 0;
     width: 100%;
@@ -733,12 +733,12 @@ ul.portfolio li.active {
 }
 
 .education-carousel-list {
-    padding: 30px;
-    background-color: #fff;
-    border-radius: 4px;
+  padding: 45px 30px 30px 30px !important;
+  background-color: #fff;
+  border-radius: 4px;
   box-shadow: 0px 1px 2px 0px rgba(90, 91, 95, 0.15);
   border: 1px solid #D7D7D7;
-    transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
 .education-carousel-list:hover {
@@ -785,6 +785,10 @@ ul.portfolio li.active {
     -webkit-border-radius: 4px;
     -moz-border-radius: 4px;
     border-radius: 4px;
+}
+
+.owl-theme .owl-controls {
+  margin-top: 0 !important;
 }
 
 /* Skills */
@@ -983,9 +987,9 @@ ul.portfolio li.active {
     .navigation-background .navbar-collapse {
         background: rgba(0, 5, 0, 0.9);
     }
-    .home-section-background {
+    /* .home-section-background {
         padding-top: 120px;
-    }
+    } */
     .home-section-background h2 {
         font-size: 22px;
     }
@@ -1007,11 +1011,11 @@ ul.portfolio li.active {
 @media only screen and (max-width: 555px) {
     
      .section-title h2 {
-         font-size: 16px;
+         font-size: 20px;
        }
      
       .section-title h2 {
-         font-weight: 500;
+         font-weight: 600;
          width: 200px;
      }
    
@@ -1032,7 +1036,7 @@ ul.portfolio li.active {
 
 @media only screen and (max-width: 449px) {
      .button {
-          padding: 15px 30px;
+          padding: 2px 30px;
           font-weight: 600;
           font-size: 10px;
     }
@@ -1594,5 +1598,5 @@ img.mfp-img {
 }
 
 .nav>li>a>img {
-  width: 22px !important;
+  width: 18px !important;
 }

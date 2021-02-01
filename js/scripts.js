@@ -109,7 +109,7 @@
             loopCount: Infinity
           });
           $(".typing-en").typed({
-            strings: ["Web <mark>Design</mark>", "Web/Mobile <mark>Development</mark>", "Software <mark>Consulting</mark>"],   
+            strings: ["Web <mark>Design</mark>", "Web/Mobile <mark>Development</mark>", "Software <mark>Engineering</mark>"],   
             typeSpeed: 120,
             loop: true,
             loopCount: Infinity
@@ -161,7 +161,7 @@
         /* Education Carousel/Slider */
 
         $(".education-carousel-list").owlCarousel({
-            items: 1,
+            items: 3,
             autoPlay: true,
             stopOnHover: true,
             navigation: true,
@@ -171,11 +171,11 @@
             itemsTablet: [768, 1],
             itemsTabletSmall: false,
             itemsMobile: [479, 1],
-            autoHeight: true,
+            autoHeight: false,
             pagination: false,
             transitionStyle : "backSlide"
         });
 		
-            });
+  });
 
-   })(jQuery);
+})(jQuery);
